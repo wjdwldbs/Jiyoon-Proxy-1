@@ -1,0 +1,42 @@
+{
+  "name": "Jiyoon-Proxy-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -d --watch",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdwldbs/Jiyoon-Proxy-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjdwldbs/Jiyoon-Proxy-1/issues"
+  },
+  "homepage": "https://github.com/wjdwldbs/Jiyoon-Proxy-1#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "http-proxy-middleware": "^0.20.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
